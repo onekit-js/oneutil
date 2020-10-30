@@ -4,7 +4,7 @@ function rel2abs (currentUrl, url) {
     return url.substring(1);
   }
   // //////////////////
-  let folder;
+  var folder;
   if (currentUrl.indexOf('/') >= 0) {
     folder = currentUrl.substring(0, currentUrl.lastIndexOf('/') + 1);
     if (folder.startsWith('/')) {
@@ -31,9 +31,9 @@ function abs2rel (currentUrl, url) {
     currentUrl = currentUrl.substring(1);
   }
   const array = currentUrl.split('/');
-  let result = '';
+  var result = '';
   if (array.length > 1) {
-    for (let i = 0; i < array.length - 1; i++) {
+    for (var i = 0; i < array.length - 1; i++) {
       result += '../';
     }
   } else {

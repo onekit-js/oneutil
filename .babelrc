@@ -8,3 +8,4 @@
     "presets": [
         ["env", {"loose": true, "modules": "commonjs"}]
     ]
+}

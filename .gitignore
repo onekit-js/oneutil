@@ -102,3 +102,18 @@ dist
 
 # TernJS port file
 .tern-port
+dev/oneutil/index.js
+dev/oneutil/index.json
+dev/oneutil/package.json
+dev/package-lock.json
+dev/package.json
+dev/vue_demo/babel.config.js
+dev/vue_demo/package-lock.json
+dev/vue_demo/package.json
+dev/vue_demo/public/favicon.ico
+dev/vue_demo/public/index.html
+dev/vue_demo/README.md
+dev/vue_demo/src/App.vue
+dev/vue_demo/src/assets/logo.png
+dev/vue_demo/src/main.js
+tools/.DS_Store

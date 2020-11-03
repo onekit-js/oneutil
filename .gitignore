@@ -118,3 +118,5 @@ dev/vue_demo/src/assets/logo.png
 dev/vue_demo/src/main.js
 tools/.DS_Store
 .DS_Store
+package-lock.json
+.DS_Store

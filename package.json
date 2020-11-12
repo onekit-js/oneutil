@@ -1,6 +1,6 @@
 {
   "name": "oneutil",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -41,7 +41,9 @@
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "text-encoding": "latest"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",

@@ -1,4 +1,4 @@
-export default function TASK(items, func, success) {
+export default function (items, func, success) {
   const result = []
   let i = 0
   let itemCallback = null

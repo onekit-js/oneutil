@@ -6,8 +6,9 @@ import HTML from './HTML'
 import PATH from './PATH'
 import PROMISE from './PROMISE'
 import STRING from './STRING'
+import TASK from './TASK'
 import URL from './URL'
 
 export {
-  TheKit, COLOR, DATE, HTML, PATH, PROMISE, STRING, URL
+  TheKit, COLOR, DATE, HTML, PATH, PROMISE, STRING, TASK, URL
 }

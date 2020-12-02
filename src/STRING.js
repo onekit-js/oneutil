@@ -32,7 +32,14 @@ export default class STRING {
     return result
   }
 
-  static string2arraybuffer(str) {
-    return new TextEncoder().encode(str).buffer
+  static base64ToArrayBuffer(base64) {
+    base64 = base64.replace(/\s/g, '+')
+    const commonContent = Buffer.from(base64, 'base64')
+    return commonContent
+  }
+
+  static arrayBufferToBase64(arrayBuffer) {
+    const base64Content = Buffer.from(arrayBuffer).toString('base64')
+    return base64Content
   }
 }

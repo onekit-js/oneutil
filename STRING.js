@@ -6,7 +6,9 @@ export default class STRING {
   static firstLower(str) {
     return str.substr(0, 1).toLowerCase() + str.substr(1)
   }
-
+  static replaceAll(str,str1,str2){
+    return str.replace(new RegExp(str1,"gm"),str2);
+  }
   static replace(string, str1, str2) {
     let result = ''
     let inTag = false

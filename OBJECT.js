@@ -10,7 +10,7 @@ export default class OBJECT {
                 continue;
             }
             if (value1 != null) {
-                object1[key] = this.assign(value1, value2)
+                object1[key] = OBJECT.assign(value1, value2)
             } else {
                 object1[key] = value2
             }

@@ -8,6 +8,7 @@ import OBJECT from './OBJECT'
 import PATH from './PATH'
 import PROMISE from './PROMISE'
 import STRING from './STRING'
+import SYSTEM from './SYSTEM'
 import TASK from './TASK'
 import URL from './URL'
 
@@ -22,6 +23,7 @@ export {
   PATH,
   PROMISE,
   STRING,
+  SYSTEM,
   TASK,
   URL
 }

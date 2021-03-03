@@ -3,12 +3,12 @@ import BLOB from './BLOB'
 import BOOLEAN from './BOOLEAN'
 import COLOR from './COLOR'
 import DATE from './DATE'
+import DEVICE from './DEVICE'
 import HTML from './HTML'
 import OBJECT from './OBJECT'
 import PATH from './PATH'
 import PROMISE from './PROMISE'
 import STRING from './STRING'
-import SYSTEM from './SYSTEM'
 import TASK from './TASK'
 import URL from './URL'
 
@@ -18,12 +18,12 @@ export {
   BOOLEAN,
   COLOR,
   DATE,
+  DEVICE,
   HTML,
   OBJECT,
   PATH,
   PROMISE,
   STRING,
-  SYSTEM,
   TASK,
   URL
 }
